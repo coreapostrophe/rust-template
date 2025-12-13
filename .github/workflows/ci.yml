@@ -9,7 +9,6 @@ on:
 env:
   CARGO_TERM_COLOR: always
   RUST_BACKTRACE: 1
-  SUPPORTED_RUST_VERSION: 1.91.0
 
 jobs:
   test:
@@ -17,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        rust: ["${{ env.SUPPORTED_RUST_VERSION }}", "stable"]
+        rust: [1.92.0, stable]
     steps:
       - name: Checkout code
         uses: actions/checkout@v4

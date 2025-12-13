@@ -22,7 +22,8 @@
         "vadimcn.vscode-lldb",
         "fill-labs.dependi",
         "tamasfe.even-better-toml",
-        "redhat.vscode-yaml"
+        "redhat.vscode-yaml",
+        "donjayamanne.githistory"
       ],
       "settings": {
         "rust-analyzer.checkOnSave.enable": true,
